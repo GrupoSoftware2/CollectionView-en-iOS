@@ -12,6 +12,11 @@
 		FB71F2431E6648D400EA2697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB71F2411E6648D400EA2697 /* Main.storyboard */; };
 		FB71F2451E6648D400EA2697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB71F2441E6648D400EA2697 /* Assets.xcassets */; };
 		FB71F2481E6648D400EA2697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB71F2461E6648D400EA2697 /* LaunchScreen.storyboard */; };
+		FB71F2521E664BA300EA2697 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71F2511E664BA300EA2697 /* ItemCell.swift */; };
+		FB71F2541E664C7600EA2697 /* ItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71F2531E664C7600EA2697 /* ItemCollectionViewController.swift */; };
+		FB71F2561E664E2A00EA2697 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71F2551E664E2A00EA2697 /* Item.swift */; };
+		FB71F2581E66638400EA2697 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71F2571E66638400EA2697 /* NormalViewController.swift */; };
+		FB71F25A1E666D4900EA2697 /* SiguienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71F2591E666D4900EA2697 /* SiguienteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FB71F2441E6648D400EA2697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB71F2471E6648D400EA2697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB71F2491E6648D400EA2697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB71F2511E664BA300EA2697 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		FB71F2531E664C7600EA2697 /* ItemCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewController.swift; sourceTree = "<group>"; };
+		FB71F2551E664E2A00EA2697 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FB71F2571E66638400EA2697 /* NormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		FB71F2591E666D4900EA2697 /* SiguienteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiguienteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				FB71F23D1E6648D400EA2697 /* AppDelegate.swift */,
 				FB71F23F1E6648D400EA2697 /* ViewController.swift */,
 				FB71F2411E6648D400EA2697 /* Main.storyboard */,
+				FB71F2531E664C7600EA2697 /* ItemCollectionViewController.swift */,
 				FB71F2441E6648D400EA2697 /* Assets.xcassets */,
 				FB71F2461E6648D400EA2697 /* LaunchScreen.storyboard */,
 				FB71F2491E6648D400EA2697 /* Info.plist */,
+				FB71F2511E664BA300EA2697 /* ItemCell.swift */,
+				FB71F2551E664E2A00EA2697 /* Item.swift */,
+				FB71F2571E66638400EA2697 /* NormalViewController.swift */,
+				FB71F2591E666D4900EA2697 /* SiguienteViewController.swift */,
 			);
 			path = "CollectionView en iOS";
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB71F2561E664E2A00EA2697 /* Item.swift in Sources */,
+				FB71F2581E66638400EA2697 /* NormalViewController.swift in Sources */,
 				FB71F2401E6648D400EA2697 /* ViewController.swift in Sources */,
 				FB71F23E1E6648D400EA2697 /* AppDelegate.swift in Sources */,
+				FB71F2521E664BA300EA2697 /* ItemCell.swift in Sources */,
+				FB71F2541E664C7600EA2697 /* ItemCollectionViewController.swift in Sources */,
+				FB71F25A1E666D4900EA2697 /* SiguienteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
